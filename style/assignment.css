@@ -1,0 +1,106 @@
+*{
+    font-family: "Fira Sans", serif;
+    /* margin: 24px 160px; */
+}
+
+.fira-sans-thin {
+    /* font-family: "Fira Sans", serif; */
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 24px 160px; */
+    width: 1600px;
+    height: 100px;
+    padding: 31px 1228px 31px 160px;
+}
+.signin{
+    text-decoration: none;
+    color: #006A50;
+}
+
+.nav-tittle{
+    font-size:  32px;
+    font-weight: 700;
+}
+
+nav ul li {
+   list-style:none;
+}
+button{
+    color: #006A50;
+    font-weight: 600;
+    font-size: 18px;
+    background-color:rgb(255, 255, 255) ;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border-color:#006A50;   
+}
+
+.banner{
+    background-color: #C6E4D6;
+    /* width: 1360.03px; 
+    height: 560px; */
+    border-radius: 24px;
+    /* margin: 24px 160px; */
+    margin: 25px 119.99px 55px 119.99px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    padding: 117px 200px 117px 100px;
+    max-width: 600px;
+
+
+/* banner style */
+/* style="color: #afaeae; font-weight: 500; font-size: 24px;" */
+
+.btn-primary{
+    color: #FFFFFF; 
+    text-decoration: none;   
+    padding: 17px 34px;  
+}
+.button{
+  background-color: #006A50;
+}
+.BD{
+    color:#afaeae;
+    font-weight:550;
+    font-size: 24px;
+}
+.gtext{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+
+}
+.banner-image{ 
+    margin: 80px 100px 80px 100px;
+}
+
+/* newsletter style */
+
+.news{
+font-weight: bold;
+font-size: 40px;
+color: #0E0E0E;
+}
+
+.news-description{
+    font-weight: 400;
+    font-size: 16px;
+    color:#747474
+}
+
+.newsbgcolor{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    max-width: 1280px;
+    text-align: center;
+    margin
+}
