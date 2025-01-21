@@ -39,6 +39,10 @@ button{
     border-color:#006A50;   
 }
 
+
+/* banner style */
+/* style="color: #afaeae; font-weight: 500; font-size: 24px;" */
+
 .banner{
     background-color: #C6E4D6;
     /* width: 1360.03px; 
@@ -53,10 +57,10 @@ button{
 .banner-content{
     padding: 117px 200px 117px 100px;
     max-width: 600px;
-
-
-/* banner style */
-/* style="color: #afaeae; font-weight: 500; font-size: 24px;" */
+}
+.banner-image{ 
+    margin: 80px 100px 80px 100px;
+}
 
 .btn-primary{
     color: #FFFFFF; 
@@ -78,29 +82,62 @@ button{
 }
 
 
+
+
+/* newsletter section style */
+
+.newsletter-container{
+        background-color:#C6E4D6 ;
+        border-radius: 24px;
+        margin: 80px 160px 4140px 160px;
+        text-align: center;
+        padding: 80px 265px ;  
 }
-.banner-image{ 
-    margin: 80px 100px 80px 100px;
+.newsletter-container form {
+    display: flex;
+    /* justify-content: center; */
+}
+.newsletter-container input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    width: 600px;
+    height: 40px;
+    padding: 18px 403px 18px 40px;
+    font-weight: 400px;
+    font-size: 19px; 
+}
+.newsletter-container h2{
+    /* padding-bottom: 0px; */
+    font-weight: bold;
+    font-size: 40px;
+}
+.greetings{
+   text-align: center;
+   width: 622px;
+   height: 48px;
+   margin-bottom: 24px;
+   margin-left: 250px;
+   margin-top: 0px;
+   font-weight: 400;
+   font-size: 20px;
+   color: #747474;
 }
 
-/* newsletter style */
-
-.news{
-font-weight: bold;
-font-size: 40px;
-color: #0E0E0E;
+.footer-text{
+   font-weight: 400;
+   font-size: 20px;
+   color: #747474;
+   margin-top: 24px;
 }
 
-.news-description{
-    font-weight: 400;
-    font-size: 16px;
-    color:#747474
-}
+.newsletter-container button{
+           padding: 17px 34px;
+           color: #fdfffe;
+           background-color: #006A50;
+           border: none;
+           font-weight: 600;
+           font-size: 18px;
 
-.newsbgcolor{
-    background-color: #C6E4D6;
-    border-radius: 24px;
-    max-width: 1280px;
-    text-align: center;
-    margin
 }
