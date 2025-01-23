@@ -36,6 +36,7 @@ button{
     padding: 17px 34px;
     border-radius: 8px;
     border-color:#006A50;   
+    border: none;
 }
 
 
@@ -108,7 +109,7 @@ button{
     font-size: 19px; 
 }
 .newsletter-container h2{
-    /* padding-bottom: 0px; */
+
     font-weight: bold;
     font-size: 40px;
 }
