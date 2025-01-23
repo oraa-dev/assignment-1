@@ -340,3 +340,40 @@ font-weight: 500;
     color: #747474;
 }
 
+
+/********* Donation Section Design *********/
+.donatedad{
+    display: flex;
+    gap: 24px;
+    margin: 32px 232px 32px 432px;
+}
+
+.donate{
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.donatehead{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.donateparag{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 24px 160px 32px 160px;
+    color: #747474;
+}
+
+.donbutcolor{
+   background-color: #7ebea0 ;
+}
