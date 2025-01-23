@@ -226,11 +226,116 @@ font-weight: 500;
 
 .visbor button{
     margin-left: 32px;
-    /* background-color: #5490F5; */
 }
 
 .visbor a{
     text-decoration: none;
     color: #ffffff;
+}
+
+
+
+/********** The Testimonial Section Style **********/
+
+.testimonial{
+    border: 1px solid #e0e0e0;
+    width: 1662px;
+    height: 250px;
+    margin: 0px 160px 80px 160px;
+    border-radius: 10px;
+    
+}
+.yunusgreet{
+    font-weight: 500;
+    font-size: 20px;
+    color: #747474;
+    padding: 25px 20px 0px 20px;
+}
+.yunus{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+
+}
+.cheifadvisor{
+    font-weight: 500;
+    font-size: 20px;
+    color: #747474;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.yunus-section{
+    margin: 25px 20px 0px 20px;
+    background-image:    url("../assets/quote-bg.png");
+    background-repeat:   no-repeat;
+}
+
+/********Recent Section Style********/
+
+.recent{
+    display: flex;
+    gap: 32px;
+    padding: 48px 48px;
+    margin: 32px 160px 34px 160px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+}
+
+.sateliteimg {
+    width: 1080px;
+    height: 309px;    
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.recent div h3{
+    font-weight: bold;
+    font-size: 32px;
+    width: 134;
+    height: 40;
+    margin-bottom: 12px;
+}
+
+.recent p{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #747474;
+}
+
+.datetime{
+    font-size: 19px;
+    color: #747474;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.recentbutton{
+    background-color: #006A50;
+    border: none;
+}
+
+.recentbutton a{
+    text-decoration: none;
+    color: #FFFFFF;   
+}
+
+.recentheading{
+    margin:80px 160px 32px 160px;
+}
+
+.recentheading h2{
+   font-weight: bold;
+   font-size: 40px;
+}
+
+.recentheading p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #747474;
 }
 

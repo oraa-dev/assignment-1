@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+  
+  .testimonial blockquote {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .testimonial blockquote p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial blockquote footer {
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .testimonial blockquote footer strong {
+    display: block;
+    font-size: 1em;
+    color: #000;
+  }
+  
+  .testimonial:before {
+    content: "“";
+    font-size: 3em;
+    color: #ddd;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: -1;
+  }
+  
