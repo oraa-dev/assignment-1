@@ -88,7 +88,7 @@ button{
 .newsletter-container{
         background-color:#C6E4D6 ;
         border-radius: 24px;
-        margin: 80px 160px 4140px 160px;
+        margin: 80px 160px 80px 160px;
         text-align: center;
         padding: 80px 265px ;  
 }
@@ -143,4 +143,94 @@ button{
 
 /*******BD 2.0 Section Style******* */
 
+.BD2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 160px;
+}
+
+.pillars-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 32px 160px;
+    
+}
+
+.pillar-card{
+    border: 1px solid;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.pillar-card h3{
+font-size: 25px;
+font-weight: 500;
+}
+
+
+
+.pillar-card p{
+     font-weight: 500;
+     font-size: 20px;
+     color: #747474;
+}
+
+
+/******The Vision Of Future Style********* */
+
+.future h3{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 80px 0px 24px 160px;
+}
+.future p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #747474;
+    margin: 0px 160px 24px 160px;
+}
+.visbordad{
+   display: flex;
+   gap: 40px;
+   margin: 0px 160px 24px 160px;    
+}
+
+.visbor{
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+    width: 490px;
+    height: 325px;
+}
+
+.visbor img{
+    margin: 33px 15px 0px 33px;
+}
+
+
+.visbor h3{
+   font-weight: bold;
+   font-size: 20px;
+   margin: 30px 32px 12px 32px;
+}
+
+.visbor p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px 32px 15px 32px;
+}
+
+.visbor button{
+    margin-left: 32px;
+    /* background-color: #5490F5; */
+}
+
+.visbor a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
